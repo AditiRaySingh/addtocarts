@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Cart</title>
+</head>
+<body>
+
+<h1>Shop</h1>
+
+<!-- ITEM 1 -->
+<div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbe5B2l8TAT_CdKPI2pbgNKYggpEvdepsr2Q&s" width="100">
+    <h3>₹120</h3>
+    <button onclick="addToCart('Lehenga', 120)">Add to Cart</button>
+</div>
+
+<!-- ITEM 2 -->
+<div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NyiInb2pvSV0Q-hF146OgclJjPw8pMmLjw&s" width="100">
+    <h3>₹200</h3>
+    <button onclick="addToCart('Kurti', 200)">Add to Cart</button>
+</div>
+
+<h2>Cart</h2>
+
+<div id="cartBox"></div>
+
+<h3>Total: ₹<span id="totalPrice">0</span></h3>
+
+<script src="add.js"></script>
+</body>
+</html>
